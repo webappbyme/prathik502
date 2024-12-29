@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Agency</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div><strong>Real Estate Agency</strong></div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#properties">Properties</a>
+            <a href="#calculator">Mortgage Calculator</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to Your Dream Home</h1>
+        <p>Discover the perfect property for your family or investment.</p>
+        <img src="hero-image.jpg" alt="Real Estate Hero">
+    </section>
+
+    <section id="about" class="sections about">
+        <h2>About Us</h2>
+        <p>At Prathik Real Estate Agency, we are dedicated to helping families and investors find their dream properties. 
+            With years of experience in residential, commercial, and luxury real estate, we offer personalized services 
+            tailored to each client's unique needs. Our commitment to transparency and excellence ensures a smooth and 
+            stress-free experience for buyers and sellers alike.
+        </p>
+
+        <p>Our team of professionals brings expertise, passion, and a client-first approach to every transaction.
+            By leveraging the latest market insights and technology, we deliver exceptional value and opportunities. 
+            Whether you're buying your first home or expanding your investments, Prathik Agency is here to guide you every 
+            step of the way.</p>
+        <img src="about-us.jpg" alt="About Us">
+    </section>
+
+    <section id="properties" class="sections properties">
+        <h2>Featured Properties</h2>
+        <div class="property-list">
+            <div class="property-item">
+                <img src="property1.jpg" alt="Property 1">
+                <h3>Luxury Villa</h3>
+                <p>Price: $1,000,000</p>
+            </div>
+            <div class="property-item">
+                <img src="property2.jpg" alt="Property 2">
+                <h3>Modern Apartment</h3>
+                <p>Price: $500,000</p>
+            </div>
+            <div class="property-item">
+                <img src="property3.jpg" alt="Property 3">
+                <h3>Cozy Townhouse</h3>
+                <p>Price: $750,000</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="calculator" class="sections calculator">
+        <h2>Mortgage Calculator</h2>
+        <form id="mortgage-form">
+            <div class="form-group">
+                <label for="loan">Loan Amount ($)</label>
+                <input type="number" id="loan" required>
+            </div>
+            <div class="form-group">
+                <label for="rate">Interest Rate (%)</label>
+                <input type="number" id="rate" required>
+            </div>
+            <div class="form-group">
+                <label for="term">Loan Term (Years)</label>
+                <input type="number" id="term" required>
+            </div>
+            <div class="form-group">
+                <button type="button" onclick="calculateMortgage()">Calculate</button>
+            </div>
+            <p id="result"></p>
+        </form>
+    </section>
+
+    <section id="contact" class="sections contact">
+        <h2>Contact Us</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Send Message</button>
+            </div>
+        </form>
+        <img src="contact-us.jpg" alt="Contact Us">
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Real Estate Agency. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

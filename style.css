@@ -1,0 +1,163 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f5f5f5; /* Light background for the overall site */
+}
+
+header {
+    background-color: #004085;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+header nav {
+    display: flex;
+    gap: 50px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to right, #f7f7f7, #e0e0e0);
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black; /* Changed text color to black */
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: black; /* Changed text color to black */
+}
+
+
+.hero img {
+    display: block;
+    margin: 20px auto;
+    width: 30%; /* Emphasize hero image size */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Styling */
+.sections {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center; /* Centers the text horizontally */
+    font-size: 2rem; /* Adjust font size as needed */
+    font-weight: bold; /* Make it bold */
+    margin: 20px 0; /* Adds spacing above and below */
+    color: black; /* Ensure it matches your desired color */
+}
+
+.about {
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact {
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.calculator {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Styling */
+.sections img, .hero img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%; /* Ensures responsiveness */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.about img {
+    width: 30%; /* Adjusted width for About Us image */
+}
+
+.contact img {
+    width: 20%; /* Adjusted width for Contact Us image */
+}
+
+/* Property List Styling */
+.property-list {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Makes properties responsive */
+}
+
+.property-item {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1 1 calc(30% - 20px); /* Flexible property item width */
+    margin: 10px;
+}
+
+.property-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Form Styling */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input, .form-group textarea, .form-group button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.form-group button {
+    background-color: #004085;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
